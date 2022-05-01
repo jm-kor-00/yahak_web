@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>catformblog</title>
+  <style>
+    body {
+      background: #BDB76B url("img/bg-stripe01.png") repeat-x;
+    }
+    h1 {
+      color: #BDB76B;
+    }
+    #intro {
+      border-bottom: 1px dotted #BDB76B;
+      border-top: 1px dotted #BDB76B;
+      padding: 10px;
+      font-size: 18px;
+      letter-spacing: 2px;
+    }
+    #wrapper {
+      width: 50%;
+      margin: 60px auto;
+      margin-top: 50px;
+      padding: 50px 60px;
+      text-align: center;
+      background-color: #FFF;
+    }
+    a {
+      text-decoration: none;
+    }
+    a:hover {
+      color: orange;
+    }
+    ul li {
+      text-align: left;
+      font: 18px/1.6 bold;
+    }
+    #unnamed {
+      margin: 0px auto;
+      border: 1px solid #BDB76B;
+      border-left: 20px solid #BDB76B;
+      padding: 10px 20px;
+      text-align: left;
+      color: #BDB76B;
+      font-size: 20px;
+    }
+    #ownerinfo {
+      margin: 0px auto;
+      border: 1px solid #BDB76B;
+      border-left: 20px solid #BDB76B;
+      padding: 10px 20px;
+      text-align: left;
+      color: #BDB76B;
+      font-size: 20px;
+    }
+    #photo_project {
+      margin: 0px auto;
+      border: 1px solid #BDB76B;
+      border-left: 20px solid #BDB76B;
+      padding: 10px 20px;
+      text-align: left;
+      color: #BDB76B;
+      font-size: 20px;
+    }
+    .catsection {
+      background: #ADD8E6 url("img/bg-stripe02.png") repeat-x;
+      background-size: 100px 20px;
+      height: 500px;
+      margin: 40px 0px;
+      text-align: left;
+      padding: 30px 60px;
+    }
+    #catname_peter {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    #catname_mary {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    #catname_elsa {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .catname_sub {
+      font-size: 20px;
+      color: #F0FFFF;
+    }
+    .catimage {
+      text-align: center;
+    }
+    .catinfo {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+    .catimage>img {
+      width: 80%;
+      border-radius: 20px 20px;
+    }
+    .catimage>img:hover{
+      box-shadow: 0px 0px 20px 10px rgba(46,139,87,0.8);
+    }
+    .link_more {
+      text-align: right;
+      float:right;
+      padding-right: 30px;
+      color: #008000;
+      font-size: 20px;
+      width:70px;
+      font-weight: bold;
+      background: url("img/big-heart.png") no-repeat 100% 50%;
+      background-size: 30px 30px;
+      border-radius: 5px 5px;
+    }
+    .link_more:hover{
+      box-shadow: 0px 0px 10px 5px rgba(46,139,87,0.8);
+    }
+    .link_form {
+      margin:10px 0px;
+      text-align: right;
+      float:right;
+      padding-right: 30px;
+      color: #4169E1;
+      width:120px;
+      font-size: 20px;
+      font-weight: bold;
+      background: url("img/icon-5.png") no-repeat 100% 50%;
+      background-size: 30px 30px;
+      border-radius: 5px 5px;
+    }
+    .link_form:hover{
+      box-shadow: 0px 0px 10px 5px rgba(65,105,225,0.8);
+    }
+    .project_info {
+      font-size: 18px;
+      line-height: 1.6;
+      text-align: left;
+      padding-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <h1>우리 집 야옹이</h1>
+    <div id="intro">우리 집 아이돌, 고양이들을 소개하겠습니다!</div>
+    <ul>
+      <li><a href="#unnamed">우리 집 야옹이 소개</a></li>
+      <li><a href="#ownerinfo">기르는 주인 소개</a></li>
+      <li><a href="#photo_project">고양이 사진 모집</a></li>
+    </ul>
+    <h3 id="unnamed">
+      우리 집 야옹이 소개
+    </h3>
+    <div class="catsection">
+      <span id="catname_peter">피터</span>
+      <span class="catname_sub">(흰 색에 호랑무늬, 수컷)</span>
+      <p class="catinfo">눈과 귀가 크고 멋지다. 우는 소리조차 귀엽다. 어린 시절을 원룸에서 보낸 탓인지 다른 고양이에게 관심이 없는 편이다.
+        <br>
+        골판지상자 모서리나 기둥에 발톱갈기를 좋아한다.
+      </p>
+      <p class="catimage">
+        <img src="img/peter.jpg">
+      </p>
+      <p class="catinfo">
+        특징 : 커다란 눈과 귀, 말린 꼬리
+        <br>
+        성격 : 자기중심적
+      </p>
+      <a href="peter-section.html">
+        <p class="link_more">더보기</p>
+      </a>
+    </div>
+    <div class="catsection">
+      <span id="catname_mary">메리</span>
+      <span class="catname_sub">(흰 색과 갈색무늬, 암컷)</span>
+      <p class="catinfo">
+        그레코와 함께 우리집에 온 흰색 빛이 도는 어린 고양이. 그레코와는 달리 전형적인 고양이 성격.
+        호의적인 태도보다는 오히려 적대적은 태도를 보일 때가 많다(눈물). 그레코와 벌인 세력쟁탈전에서 패배한 후 집을 나가
+        지금은 거의 들고양이 신세가 되었다.
+        <br>
+        생김새는 원래 순 토종 풍으로 깨끗했었는데 밖에서 살던 중에 까마귀의 공격을 받아 한쪽 눈을 잃었다.
+      </p>
+      <p class="catimage">
+        <img src="img/mary.jpg">
+      </p>
+      <p class="catinfo">
+        특징 : 한쪽 눈, 작은 얼굴.
+        <br>
+        성격 : 자존심이 강하다. 사람에게는 여왕처럼 군다.
+      </p>
+      <a href="mary-section.html">
+        <p class="link_more">더보기</p>
+      </a>
+    </div>
+    <div class="catsection">
+      <span id="catname_elsa">엘사</span>
+      <span class="catname_sub">(잿빛 털, 암컷)</span>
+      <p class="catinfo">
+        갓 태어났을 때는 아메리칸 쇼트 헤어 같았는데 크면서 점점 잿빛 고양이로 바뀌었다.
+        긴 털을 가진 품종의 혈통이 좀 섞였는지 털이 부드럽고 푹신푹신하게 부풀어 있어 가족들이 털복숭이라 부르고 있다.
+        <br>
+        쉰 목소리와 관록 있는 생김새로부터는 상상할 수 없을 정도로 애교를 잘 부리고
+        처음 보는 사람에게도 낯을 가리지 않고 스스럼없이 다가오기 때문에 손님들이 굉장히 귀여워한다.
+      </p>
+      <p class="catimage">
+        <img src="img/elsa.jpg">
+      </p>
+      <p class="catinfo">
+        특징 : 쉰 목소리, 데굴데굴 구르며 공격
+        <br>
+        성격 : 애교가 많다. 엉큼함.
+      </p>
+      <a href="elsa-section.html">
+        <p class="link_more">더보기</p>
+      </a>
+    </div>
+    <h3 id="ownerinfo">
+      기르는 주인 소개
+    </h3>
+    <ul>
+      <li>H.P : 010 6552 5223</li>
+      <li>하는 일 : 백수</li>
+      <li><a href="">관리자에게 메일보내기</a></li>
+      <li>WEB : <a href="http://tomys.dothome.co.kr">http://tomys.dothome.co.kr</a></li>
+    </ul>
+    <h3 id="photo_project">
+      고양이 사진 모집
+    </h3>
+    <p class="project_info">
+      갤러리 페이지를 기획중입니다. 여러분의 소중한 고양이를 소개해보세요<br>
+      <b>고양이 열 마리가 모이면 페이지를 개설하겠습니다!</b>
+    </p>
+    <a href="고양이폼.html">
+      <p class="link_form">응모는 이쪽</p>
+    </a>
+  </div>
+</body>
+</html>
